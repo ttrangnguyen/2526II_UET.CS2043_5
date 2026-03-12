@@ -44,7 +44,7 @@ public class Main {
         //chương trình vẫn sẽ dịch được (compile)
         //tuy nhiên khi chạy sẽ lỗi, do không thể ép kiểu Teacher về kiểu Student
         if(s1.equals(teacher1)){
-            System.out.println("s1 and oop has the same values");
+            System.out.println("s1 and teacher1 has the same values");
         }
 
         Student s4 = new Student(s1);
